@@ -72,4 +72,18 @@
       </plugins>
     </pluginManagement>
   </build>
+
+  <distributionManagement>
+    <repository>
+      <id>nexus.tncy.eu</id>
+      <name>Releases</name>
+      <url>http://nexus.tncy.eu/repository/maven-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>nexus.tncy.eu</id>
+      <name>Snapshots</name>
+      <url>http://nexus.tncy.eu/repository/maven-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
